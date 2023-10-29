@@ -152,6 +152,12 @@ main{
     border-radius: 12px;
     right: -100px;
     bottom: 70px;
+    animation: fade 500ms linear;
+}
+@keyframes fade {
+    from{opacity: .4;}
+    to{opacity: 1;}
+    
 }
 
 .icon___container{
@@ -269,10 +275,5 @@ main{
 
 }
 
-/* @media screen and (max-width: 374px) {
-   main{
-    width: 95%;
-   }
 
-} */
 
