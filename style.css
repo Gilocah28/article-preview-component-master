@@ -31,7 +31,7 @@ main{
     justify-content: center;
     background-color: white;
     border-radius: 15px;
-    margin: 0 1rem;
+
 }
 
 .image___container{
@@ -177,11 +177,11 @@ main{
     text-decoration: none;
 }
 
-@media screen and (max-width: 754px) {
+@media screen and (max-width: 890px) {
     main{
         flex-direction: column;
         height: 600px;
-        width: 95%;
+        width: 70%;
     }
     .image___container{
         width: 100%;
@@ -218,7 +218,7 @@ main{
     main{
         flex-direction: column;
         height: 700px;
-        width: 95%;
+        width: 90%;
     }
     .image___container{
         width: 100%;
